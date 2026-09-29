@@ -9,6 +9,7 @@ def rollDice():
     return die1, die2
 
 os.system("clear")
+
 dice=rollDice()
 print(f"Dice:{dice}")
 if dice[0] == 6 and dice[1] ==6:
