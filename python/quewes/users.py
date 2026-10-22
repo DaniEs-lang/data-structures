@@ -22,17 +22,36 @@ while True:
         case "1":
             os.system("clear")
             print(":::Register form:::")
+
+            while True:
+                id=input ("Ident.number: ")
+                count=0
+                i=0
+                while i < len(ids):
+                    if id == ids[i]:
+                        print("identification number already exists!\n Try again :::")
+                        count+=1
+                        break
+                    it=1
+            if count == 0:
+                break
+        
             id=input("Ident.number: ")
             firstname= input("Firstname: ")
             lastname= input("Lastname: ")
-            mobile.phone =input("Mobile phone: ")
+            mobile_phone =input("Mobile phone: ")
             email= input("E-mail: ")
             gender= input("Gender [M/F/O]: ")
             ids.append(id)
             firstnames.append(firstname)
             lastnames.append(lastname)
-            mobile.phones.append(mobile.phone)
+            mobile_phones.append(mobile_phone)
+            emails.append(email)
             statuses.append(True)
+            gender.append(gender)
+
+            ages.append(age)
+            salarys.append(salary)
 
             createLat.append(date.today())
             print("user has been created successfully!!")
