@@ -184,8 +184,20 @@ while True:
             key = input("Press any key to back to main menu: ")
         
 
-
-            any_key=input("Press any key")
+        Search user by Id
+            if user doen't exit then print info
+            if user exist:
+                Display a menu options:
+                [1]. Update firsname
+                [2]. Update lastname
+                [3]. Update mobile_phone
+                [4]. Update email
+                [5]. Update status
+                [6]. Update age
+                [7]. Update salary
+                [8]. Update all gelds
+                [9]. exit 
+            ##any_key=input("Press any key")
 
             
         case "8":
